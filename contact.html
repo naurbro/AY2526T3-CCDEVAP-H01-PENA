@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact - Atreyu</title>
+</head>
+
+<body>
+
+    <header>
+        <h1>Contact Me</h1>
+
+        <nav>
+            <p>
+                <a href="index.html">Home</a> 
+                |
+                <a href="about.html">About Me</a> 
+                |
+                <a href="contact.html">Contact</a>
+                |
+                <a href="contacteme.html">Español</a>
+            </p>
+        </nav>
+
+        <hr>
+    </header>
+
+    <main>
+        <!-- Social Media goes hereee -->
+        <section>
+            <h2>Find Me On...</h2>
+
+            <p>
+                <img src="linkedin.png" alt="LinkedIn icon" width="30" height="30">
+                <a href="https://www.linkedin.com/in/atreyu-pe%C3%B1a-02091838b/" target="_blank" rel="noopener">
+                    LinkedIn
+                </a>
+            </p>
+
+            <p>
+                <img src="facebook.png" alt="Facebook icon" width="30" height="30">
+                <a href="https://www.facebook.com/AtreyuPreobrazhensky/" target="_blank" rel="noopener">
+                    Facebook
+                </a>
+            </p>
+        </section>
+
+        <hr>
+
+        <!-- Contact Form Section -->
+        <section>
+            <h2>Send Me a Message</h2>
+
+            <form action="mailto:atreyu_vince_pena@dlsu.edu.ph" method="post" enctype="text/plain">
+
+                <!-- Name field to fill out-->
+                <p>
+                    <label for="name">Your Name:</label><br>
+                    <input type="text" id="name" name="name" size="40" required>
+                </p>
+
+                <!-- Checkboxes for platforms they use -->
+                <fieldset>
+                    <legend>What platforms do you use?</legend>
+
+                    <p>
+                        <input type="checkbox" id="phonecall" name="platform" value="Phone Call">
+                        <label for="phonecall">Phone Call</label>
+                    </p>
+
+                    <p>
+                        <input type="checkbox" id="linkedin-platform" name="platform" value="LinkedIn">
+                        <label for="linkedin-platform">LinkedIn</label>
+                    </p>
+
+                    <p>
+                        <input type="checkbox" id="facebook-platform" name="platform" value="Facebook">
+                        <label for="facebook-platform">Facebook</label>
+                    </p>
+                </fieldset>
+
+                <!-- Radio buttons for message purpose-->
+                <fieldset>
+                    <legend>What's this about?</legend>
+
+                    <p>
+                        <input type="radio" id="professional" name="purpose" value="Professional">
+                        <label for="professional">🧑‍💼 Professional 🧑‍💼</label>
+                    </p>
+
+                    <p>
+                        <input type="radio" id="vibe" name="purpose" value="Vibe">
+                        <label for="vibe">🎧 Just Vibin' 🎧</label>
+                    </p>
+                </fieldset>
+
+                <!-- Submit!!! -->
+                <p>
+                    <button type="submit">Send Message</button>
+                </p>
+
+            </form>
+        </section>
+    </main>
+
+    <hr>
+
+    <footer>
+        <p>© 2026 Atreyu Peña, CCDEVAP, DLSU</p>
+    </footer>
+
+</body>
+
+</html>
