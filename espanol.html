@@ -1,47 +1,48 @@
 <!DOCTYPE html>
-<html>
+<html lang="es">
 
 <head>
-    <!-- Lowkenuinely aquí está el head -->
-    <meta charset = "UTF-8">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>El Sitio Web de Atreyu</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
-    <header>
-        <h1>El Sitio Web de Atreyu</h1>
+    <header class="menu">
         <nav>
-            <a href = "espanol.html">Inicio</a>
-            | 
-            <a href = "sobremi.html">¡Sobre Mí!</a>
-            | 
-            <a href = "contacteme.html">¡Contáctame!</a>
-            | 
-            <a href = "index.html">English</a>
-            <hr>
+            <ul>
+                <li><a href="index.html">Atreyu Peña</a></li>
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="about.html">Sobre Mí</a></li>
+                <li><a href="contact.html">¡Contáctame!</a></li>
+                <li><a href="espanol.html">Español</a></li>
+            </ul>
         </nav>
+        <div class="flex-holder">
+            <img height="200px" src="banana.png" alt="Una foto mía, Atreyu Peña">
+            <div class="texty-box">
+                <h1>¿Que tal? ¡Bienvenido a mi sitio web!</h1>
+                <p>Soy Atreyu. Aprenderás un poco sobre mí aquí, como <strong>pasatiempos</strong> y <strong>cosas que me gustan</strong>.</p>
+                <a href="https://www.linkedin.com/in/atreyu-pe%C3%B1a-02091838b/" class="button-pri">Encuéntrame en LinkedIn</a>
+                <a href="https://www.facebook.com/atreyupreobrazhensky" class="button-sec">Encuéntrame en Facebook</a>
+            </div>
+        </div>
     </header>
-    <main>
-        <section>
-            <h2>¿Que tal? ¡Bienvenido a mi sitio web!</h2>
-            <figure>
-                <img src="me.jpeg" alt="Foto de Atreyu" width="200" height="260">
-            </figure>
-            <p>¡Soy Atreyu~ (╯°□°)╯︵ ┻━┻</p>
-
-            <p>Aprenderás un poco sobre mí aquí, como mis pasatiempos y cosas geniales que me gustan.</p>
-        </section>
-        <section>
-            <h2>Citas Geniales</h2>
-            <p>"Alea iacta est." / "La suerte está echada." - Julio César</p>
-            <p>"Sufrimos más en la imaginación que en la realidad." - Séneca</p>
-            <p>"Si no fuera Alejandro, entonces desearía ser Diógenes." - Diógenes de Sinope</p>
-        </section>
-        <section>
-            <h2>¿Quieres ser mi compañero de grupo?</h2>
-            <span>Si estás interesado en colaborar o simplemente quieres vibrar, no dudes en... <a href="https://www.facebook.com/AtreyuPreobrazhensky/">¡comunícate!</a><span></span>
-        </section>
-    </main>
+    <section>
+        <h2>Algunas Citas Que Me Gustan</h2>
+        <p class="text-holder">
+            <i>"Alea iacta est." / "La suerte está echada." - Julio César</i><br><br>
+            <i>"Sufrimos más en la imaginación que en la realidad." - Séneca</i><br><br>
+            <i>"Si no fuera Alejandro, entonces desearía ser Diógenes." - Diógenes de Sinope</i>
+        </p>
+    </section>
+    <section>
+        <h2>¿Quieres Colaborar?</h2>
+        <p class="text-holder">
+            Si estás interesado en colaborar o simplemente quieres vibrar, no dudes en... <a href="https://www.facebook.com/AtreyuPreobrazhensky/">¡comunícate!</a>
+        </p>
+    </section>
     <hr>
     <footer>
         <p>© 2026 Atreyu Peña, CCDEVAP, DLSU</p>
