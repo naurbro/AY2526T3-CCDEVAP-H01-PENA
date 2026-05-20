@@ -1,123 +1,132 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>About Me - Atreyu</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
-
     <header>
-        <h1>About Me</h1>
         <nav>
-            <a href="index.html">Home</a> |
-            <a href="about.html">About Me!</a> |
-            <a href="contact.html">Call Me!</a> |
-            <a href="sobremi.html">Español</a>
-            <hr>
-        </nav>
+        <ul>
+            <li><a href="index.html">Atreyu Peña</a></li>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About Me</a></li>
+            <li><a href="contact.html">Call Me!</a></li>
+            <li><a href="sobremi.html">Español</a></li>
+        </ul>
+    </nav>
     </header>
+    
 
     <main>
-        <h2>Hobbies!</h2>
-        <p>Here are some of my hobbies:</p>
-        <ul>
-            <li>Hosting Dungeons & Dragons Campaigns</li>
-            <li>Jiu Jitsu & Boxing</li>
-            <li>Writing Short Stories</li>
-        </ul>
-        <h2>My 5 Favorite Manga</h2>
-        <p>Let me put you on some <em>GOATED</em> manga</p>
-       <!--Lowkirkenuinely my favorite manga of all time-->
-        <table border="1" cellpadding="10">
-            <tr>
-                <th>Rank</th>
-                <th>Manga Title</th>
-                <th>Author</th>
-            </tr>
-            <tr>
-                <td>1</td>
-                <td>World Trigger</td>
-                <td>Daisuke "Smartest Man Alive" Ashihara</td>
-            </tr>
-            <tr>
-                <td>2</td>
-                <td>Kingdom</td>
-                <td>Yasuhisa "History's Greatest Fraud" Hara</td>
-            </tr>
-            <tr>
-                <td>3</td>
-                <td>Red Blue</td>
-                <td>Yukinori "Run the 1s" Kitajima</td>
-            </tr>
-            <tr>
-                <td>4</td>
-                <td>Holyland</td>
-                <td>Kouji "Existential Crisis"Mori</td>
-            </tr>
-            <tr>
-                <td>5</td>
-                <td>Kengan Ashura</td>
-                <td>Yabako "Subverto Sandwich" Sandrovich</td>
-            </tr>
-        </table>
+        <section>
+            <h2>Hobbies!</h2>
+            <p>Here are some of my hobbies:</p>
+            <ul>
+                <li>Hosting Dungeons & Dragons Campaigns</li>
+                <li>Jiu Jitsu</li>
+                <li>Figure Photography</li>
+            </ul>
+            <aside>
+                <img src="dice.jpeg" alt="Picture of Dungeons & Dragons Dice" class="square-img">
+                <img src="bjj.jpg" alt="Picture of Brazilian Jiu Jitsu" class="square-img">
+                <img src="gojo.jpeg" alt="Figure Photography" class="square-img">
+            </aside>
+            
+        </section>
+       
+            
+    
 
-        <br>
-        <hr>
-        <br>
+        <section>
+            <h2>My 5 Favorite Manga</h2>
+            <p>Let me put you on some <em>GOATED</em> manga</p>
+            <!-- Lowkirkenuinely my favorite manga of all time -->
+            <div class="table-wrapper">
+                <table border="1" cellpadding="10">
+                    <thead>
+                        <tr>
+                            <th>Rank</th>
+                            <th>Manga Title</th>
+                            <th>Author</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>1</td>
+                            <td>World Trigger</td>
+                            <td>Daisuke "Smartest Man Alive" Ashihara</td>
+                        </tr>
+                        <tr>
+                            <td>2</td>
+                            <td>Kingdom</td>
+                            <td>Yasuhisa "History's Greatest Fraud" Hara</td>
+                        </tr>
+                        <tr>
+                            <td>3</td>
+                            <td>Red Blue</td>
+                            <td>Yukinori "Run the 1s" Kitajima</td>
+                        </tr>
+                        <tr>
+                            <td>4</td>
+                            <td>Holyland</td>
+                            <td>Kouji "Existential Crisis" Mori</td>
+                        </tr>
+                        <tr>
+                            <td>5</td>
+                            <td>Kengan Ashura</td>
+                            <td>Yabako "Subverto Sandwich" Sandrovich</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </section>
 
-        <!-- Favorite song section with local MP3 file -->
-        <h2>My Favorite Song</h2>
-        <p><strong>"I Was Made for Lovin' You"</strong> by KISS</p>
-        <p>This song has been on repeat for the past 360 plays for me, it's almost impossible to not wake up in the morning with this as my alarm.</p>
-        
-        <!-- Audio player for local MP3 -->
-        <audio controls>
-            <source src="i-was-made-for-loving-you.mp3" type="audio/mpeg">
-            Your browser does not support the audio element.
-        </audio>
+        <section>
+            <h2>My Favorite Song</h2>
+            <p><strong>"I Was Made for Lovin' You"</strong> by KISS</p>
+            <p>This song has been on repeat for the past 360 plays for me, it's almost impossible to not wake up in the morning with this as my alarm.</p>
+            
+            <div class="audio-wrapper">
+                <audio controls>
+                    <source src="i-was-made-for-loving-you.mp3" type="audio/mpeg">
+                    Your browser does not support the audio element.
+                </audio>
+            </div>
+        </section>
 
-        <br>
-        <hr>
-        <br>
+        <section>
+            <h2>My favorite speed reaction imgs</h2>
+            <p>Here are some of my favorite reaction images/GIFs from iShowSpeed.</p>
 
-        <!-- Two iShowSpeed reaction imgs side by side -->
-        <h2>My favorite speed reaction imgs</h2>
-        <p>
-            Here are some of my favorite reaction images/GIFs from iShowSpeed.
-        </p>
-
-        <table border="0">
-            <tr>
-                <!-- First Vid on the left-->
-                <td>
+            <div class="video-grid">
+                <div class="video-item">
                     <video width="400" height="400" controls>
                         <source src="speed1.mp4" type="video/mp4">
                         Your browser does not support the video tag.
                     </video>
-                </td>
-                
-                <!-- Second Vid on the right-->
-                <td>
+                </div>
+                <div class="video-item">
                     <video width="400" height="400" controls>
                         <source src="speed2.mp4" type="video/mp4">
                         Your browser does not support the video tag.
                     </video>
-                </td>
-            </tr>
-        </table>
+                </div>
+            </div>
+        </section>
 
-        <br>
-        <hr>
-
-        <p><em>Thanks you for visiting!</em></p>
+        <p><i>Thank you for visiting!</i></p>
     </main>
+
+    <hr>
 
     <footer>
         <p>© 2026 Atreyu Peña, CCDEVAP, DLSU</p>
     </footer>
-
 </body>
 
 </html>
