@@ -4,44 +4,46 @@
 <head>
     <!-- Lowkenuinely here's the head -->
     <meta charset = "UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Atreyu's Website</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
     <header>
-        <h1>Atreyu's Website</h1>
         <nav>
-            <a href = "index.html">Home</a>
-            | 
-            <a href = "about.html">About Me!</a>
-            | 
-            <a href = "contact.html">Call Me!</a>
-            | 
-            <a href = "espanol.html">Español</a>
-            <hr>
+            <ul>
+                <li><a href = "index.html">Atreyu Peña</a></li>
+                <li><a href = "index.html">Home</a></li>
+                <li><a href = "about.html">About Me</a></li>
+                <li><a href = "contact.html">Call Me!</a></li>
+                <li><a href = "espanol.html">Español</a></li>
+            </ul>
         </nav>
+        <div class="flex-holder">
+            <img height="200px" src="banana.png" alt="A picture of me, Atreyu Peña">
+            <div class="texty-box">
+                <h1>How you doing? Welcome to my Website!</h1>
+                <p>I'm Atreyu. You'll learn a bit about me here, such as <strong>hobbies</strong> and <strong>stuff I like</strong>.</p>
+                <a href="https://www.linkedin.com/in/atreyu-pe%C3%B1a-02091838b/" class="button-pri">Find Me on LinkedIn</a>
+                <a href="https://www.facebook.com/atreyupreobrazhensky" class="button-sec">Find Me on FB</a>
+            </div>
+        </div>
     </header>
-    <main>
-        <section>
-            <h2>How you doing? Welcome to my website!</h2>
-            <figure>
-                <img src="me.jpeg" alt="Picture of Atreyu" width="200" height="260">
-            </figure>
-            <p>I'm Atreyu~ (╯°□°)╯︵ ┻━┻</p>
-
-            <p>You'll learn a bit about me here, such as hobbies and cool stuff I like.</p>
-        </section>
-        <section>
-            <h2>Cool Quotes</h2>
-            <p>"Alea iacta est." / "The die is cast." - Julius Caesar</p>
-            <p>"We suffer more in imagination than in reality." - Seneca</p>
-            <p>"If I were not Alexander, then I should wish to be Diogenes." - Diogenes of Sinope</p>
-        </section>
-        <section>
-            <h2>Wanna be Groupmates?</h2>
-            <span>If you're interested in collaborating or just want to vibe, feel free to... <a href="https://www.facebook.com/AtreyuPreobrazhensky/">reach out!</a></span>
-        </section>
-    </main>
+    <section>
+        <h2>Some Quotes I Like</h2>
+        <p class = "text-holder">
+            <i>"The die is cast." - Julius Caesar</i><br><br>
+            <i>"We suffer more in imagination than in reality." - Seneca</i><br><br>
+            <i>"If I were not Alexander, then I should wish to be Diogenes." - Diogenes of Sinope</i>
+        </p>
+    </section>
+    <section>
+        <h2>Wanna collaborate?</h2>
+        <p class = "text-holder">
+            If you're interested in collaborating or just want to vibe, feel free to... <a href="https://www.facebook.com/AtreyuPreobrazhensky/">reach out!</a>
+        </p>
+    </section>
     <hr>
     <footer>
         <p>© 2026 Atreyu Peña, CCDEVAP, DLSU</p>
